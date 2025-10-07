@@ -34,10 +34,37 @@ monitorador/
 git clone https://github.com/seu-usuario/monitorador-sites-go.git
 cd monitorador-sites-go
 
-<img width="1004" height="643" alt="image" src="https://github.com/user-attachments/assets/64538987-d716-4829-9ca2-0acc25d739df" />
+2️⃣ Criar o arquivo sites.txt
 
-<img width="1012" height="487" alt="image" src="https://github.com/user-attachments/assets/9ef680c7-c319-4671-a567-8f0a69f18b89" />
+Adicione um site por linha, por exemplo:
+https://www.google.com
+https://www.alura.com.br
+https://www.caelum.com.br
 
+3️⃣ Executar o programa
+
+go run main.go
+
+
+4️⃣ Menu de opções
+
+1 → Iniciar monitoramento
+
+2 → Exibir logs
+
+0 → Sair do programa
+
+🧠 Como Funciona
+
+O programa:
+
+Lê os sites do arquivo sites.txt
+
+Realiza 3 ciclos de monitoramento
+
+Aguarda 3 segundos entre os ciclos
+
+Registra o resultado no arquivo logs.txt com data, hora e status
 
 
 
